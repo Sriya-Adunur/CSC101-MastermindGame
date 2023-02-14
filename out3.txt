@@ -1,0 +1,36 @@
+Enter the minimum character: Enter the maximum character: Enter the number of characters: Enter the number of turns: Enter the seed: 
+Enter a guess (4 characters between 'F' and 'H'): The guess "G" contains 0 exact and 1 inexact matches.
+You have 11 guesses left.
+
+Enter a guess (4 characters between 'F' and 'H'): The guess "FG" contains 0 exact and 2 inexact matches.
+You have 10 guesses left.
+
+Enter a guess (4 characters between 'F' and 'H'): The guess "FGHF" contains 0 exact and 4 inexact matches.
+You have 9 guesses left.
+
+Enter a guess (4 characters between 'F' and 'H'): The guess "FFHG" contains 2 exact and 2 inexact matches.
+You have 8 guesses left.
+
+Enter a guess (4 characters between 'F' and 'H'): The guess "FFGH" contains 1 exact and 3 inexact matches.
+You have 7 guesses left.
+
+Enter a guess (4 characters between 'F' and 'H'): The guess "FGFH" contains 1 exact and 3 inexact matches.
+You have 6 guesses left.
+
+Enter a guess (4 characters between 'F' and 'H'): The guess "GFFH" contains 2 exact and 2 inexact matches.
+You have 5 guesses left.
+
+Enter a guess (4 characters between 'F' and 'H'): The guess "GFHF" contains 1 exact and 3 inexact matches.
+You have 4 guesses left.
+
+Enter a guess (4 characters between 'F' and 'H'): The guess "GHFF" contains 1 exact and 3 inexact matches.
+You have 3 guesses left.
+
+Enter a guess (4 characters between 'F' and 'H'): The guess "HGFF" contains 2 exact and 2 inexact matches.
+You have 2 guesses left.
+
+Enter a guess (4 characters between 'F' and 'H'): The guess "HFGF" contains 2 exact and 2 inexact matches.
+You have 1 guesses left.
+
+Enter a guess (4 characters between 'F' and 'H'): The guess "HFFG" contains 4 exact and 0 inexact matches.
+You win!

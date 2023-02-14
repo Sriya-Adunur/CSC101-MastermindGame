@@ -1,0 +1,3 @@
+Enter the minimum character: Enter the maximum character: Enter the number of characters: Enter the number of turns: Enter the seed: 
+Enter a guess (1 characters between 'B' and 'B'): The guess "A" contains 0 exact and 0 inexact matches.
+You lose! The answer was "B".

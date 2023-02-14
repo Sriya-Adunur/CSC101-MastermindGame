@@ -1,0 +1,18 @@
+ hello
+
+-1
+-1
+94
+G
+F, G
+F, G, H, F, F
+F, F, H, G
+F, F, G, H
+F, G, F, H
+G, F, F, H
+G, F, H, F
+G, H, F, F
+H, G, F, F
+H, F, G, F
+H, F, F, G
+

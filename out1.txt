@@ -1,0 +1,15 @@
+Enter the minimum character: Enter the maximum character: Enter the number of characters: Enter the number of turns: Enter the seed: 
+Enter a guess (4 characters between 'A' and 'F'): The guess "AABB" contains 0 exact and 2 inexact matches.
+You have 11 guesses left.
+
+Enter a guess (4 characters between 'A' and 'F'): The guess "CCAA" contains 1 exact and 1 inexact matches.
+You have 10 guesses left.
+
+Enter a guess (4 characters between 'A' and 'F'): The guess "BCAC" contains 2 exact and 1 inexact matches.
+You have 9 guesses left.
+
+Enter a guess (4 characters between 'A' and 'F'): The guess "DBAC" contains 3 exact and 0 inexact matches.
+You have 8 guesses left.
+
+Enter a guess (4 characters between 'A' and 'F'): The guess "EBAC" contains 4 exact and 0 inexact matches.
+You win!
