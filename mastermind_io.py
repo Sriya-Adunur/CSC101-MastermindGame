@@ -11,12 +11,20 @@ def parse_integer(string, default):
     :param default: A default value
     :return: The result of converting the string to an integer, or the default
              value if the string does not consist only of decimal digits
-    """
+    
     if not string.isalpha():
         return int(string)
     else:
         return default
+    """
 
+    if not string.isalpha():
+        if int(string) <= 0:
+            return default
+        else:
+            return int(string)
+    else:
+        return default
 
 def parse_character(string, default):
     """
@@ -27,12 +35,18 @@ def parse_character(string, default):
     :param default: A default value
     :return: The first alphabetical character in the string, uppercased, or the
              default value if there are no alphabetical characters
-    """
+    
     for character in string:
         if character.isalpha():
             return character.upper()
         else:
             return default
+    """
+
+    for character in string:
+        if character.isalpha():
+            return character.upper()
+    return default
 
 
 def parse_string(string, length):
@@ -44,7 +58,7 @@ def parse_string(string, length):
     :param length: A desired number of characters
     :return: The alphabetical characters in the string, uppercased and in the
              order they appeared, not exceeding the desired length
-    """
+  
     guess = ""
 
     for i in range(length):
@@ -52,3 +66,21 @@ def parse_string(string, length):
             guess = guess + string[i].upper()
 
     return guess
+    """
+    
+    lst = []
+    for char in string:
+        if char.isalpha():
+            lst.append(char)
+
+    g = ""
+    for x in lst:
+        g += x
+
+    g1 = ""    
+
+    for i in range(min(len(g), length)):
+        if g[i].isalpha():
+            g1 = g1 + g[i].upper()
+    return g1
+ 
