@@ -15,14 +15,20 @@ def random_string(start, stop, length):
     :param length: A desired number of characters
     :return: A string of random characters in that range, assuming that the
              smallest character is less than or equal to the largest
-    """
+
     string = ""
 
     for i in range(length):
         string = string + chr(random.randint(65, ord(stop)))
 
     return string
+    """
 
+    string = ""
+
+    for i in range(length):
+        string = string + chr(random.randint(ord(start), ord(stop)))
+    return string
 
 def match_exactly(guess, answer):
     """
@@ -33,7 +39,7 @@ def match_exactly(guess, answer):
     :param answer: An arbitrary correct string
     :return: The number of characters in the guessed string that appear in the
              same position within the correct string
-    """
+   
     matches = 0
 
     for i in range(max(len(guess), len(answer))):
@@ -41,7 +47,13 @@ def match_exactly(guess, answer):
             matches = matches + 1
 
     return matches
+    """
 
+    matches = 0 
+    for i in range(min(len(guess), len(answer))):
+        if guess[i] == answer[i]:
+             matches = matches + 1
+    return matches
 
 def match_any(guess, answer):
     """
@@ -52,11 +64,16 @@ def match_any(guess, answer):
     :param answer: An arbitrary correct string
     :return: The number of characters that the guessed string and the correct
              string have in common
-    """
-    matches = 0
+    """  
 
-    for character in guess:
-        if character in answer:
-            matches = matches + 1
+    matches = 0
+    listg = list(guess)
+    lista = list(answer)
+
+    for character in listg:
+        if character in lista:
+            matches += 1
+            lista.remove(character)
 
     return matches
+ 
