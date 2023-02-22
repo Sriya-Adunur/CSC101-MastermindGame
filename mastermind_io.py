@@ -18,13 +18,13 @@ def parse_integer(string, default):
         return default
     """
 
-    if not string.isalpha():
+    if not string.isnumeric():
+        return default
+    else:
         if int(string) < 0:
             return default
         else:
-            return int(string)
-    else:
-        return default
+            return int(string) 
 
 def parse_character(string, default):
     """
