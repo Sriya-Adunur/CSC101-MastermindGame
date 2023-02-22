@@ -38,6 +38,10 @@ class TestMastermind(unittest.TestCase):
         integer = mastermind_io.parse_integer("-1", 4)
         self.assertEqual(integer, 4)
 
+    def test07_parse_integer(self):
+        integer = mastermind_io.parse_integer(" 1 ", 4)
+        self.assertEqual(integer, 4)
+
     def test01_parse_character(self):
         character = mastermind_io.parse_character("ABC", "D")
         self.assertEqual(character, "A")
