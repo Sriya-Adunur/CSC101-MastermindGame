@@ -24,7 +24,7 @@ class TestMastermind(unittest.TestCase):
 
     def test04_parse_integer(self):
         integer = mastermind_io.parse_integer("0", 4)
-        self.assertEqual(integer, 4)
+        self.assertEqual(integer, 0)
 
     def test05_parse_integer(self):
         integer = mastermind_io.parse_integer("-3", 4)
@@ -35,10 +35,6 @@ class TestMastermind(unittest.TestCase):
         self.assertEqual(integer, 4)
 
     def test06_parse_integer(self):
-        integer = mastermind_io.parse_integer("0",4)
-        self.assertEqual(integer, 4)
-
-    def test07_parse_integer(self):
         integer = mastermind_io.parse_integer("-1", 4)
         self.assertEqual(integer, 4)
 

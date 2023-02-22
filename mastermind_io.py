@@ -19,7 +19,7 @@ def parse_integer(string, default):
     """
 
     if not string.isalpha():
-        if int(string) <= 0:
+        if int(string) < 0:
             return default
         else:
             return int(string)
